@@ -14,6 +14,7 @@ describe("fizzBuzz", function() {
   it("returns FizzBuzz when passed 15", function() {
     expect(fizzBuzz(15)).toEqual("FizzBuzz");
   });
+
   it("returns 8 when passed 8", function() {
     expect(fizzBuzz(8)).toEqual(8);
   });
