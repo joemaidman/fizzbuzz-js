@@ -5,4 +5,8 @@ var fizzBuzz = function(number) {
   else return number;
 };
 
-console.log("hello!")
+var printNumbers = function(){
+  for (i = 1; i < 101; i++){
+    console.log(fizzBuzz(i));
+  }
+};
